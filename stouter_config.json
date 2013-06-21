@@ -1,0 +1,20 @@
+{
+  "port":"3006",
+  "base":"public",
+  "indexFile":"index.html",
+  "routes":{
+    "/":                                        "/index.html",
+    "/app/*":                                   "/app/index.html",
+    "/how_it_works/*":                          "/how_it_works/index.html",
+    "/sign_up/*":                               "/sign_up/index.html",
+    "/about_us/*":                              "/about_us/index.html",
+    "/style_guide/*":                           "/style_guide/index.html"
+  },
+  "mimeTypes":{
+    "html"  : "text/html",
+    "css"   : "text/css",
+    "js"    : "application/javascript",
+    "woff"  : "application/font-woff",
+    "ttf"   : "application/x-font-ttf"
+  }
+}
